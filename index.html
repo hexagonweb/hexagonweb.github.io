@@ -1,97 +1,243 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-<head>
-	<meta name="viewport" content="width=device-width" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>WordPress &#8250; ReadMe</title>
-	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
-</head>
-<body>
-<h1 id="logo">
-	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
-	<br /> Version 4.6.1
-</h1>
-<p style="text-align: center">Piattaforma di Editoria Personale Semantica</p>
+	<head>
+		<title> </title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.slidertron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="landing">
 
-<h2>Prima una piccola cosa</h2>
-<p>Benvenuti. WordPress è un progetto molto speciale per me. Ciascun sviluppatore, e ciascuna persona che contribuisce, aggiunge qualcosa di unico al «mix», e insieme stiamo creando qualcosa di meraviglioso, di cui sono orgoglioso di far parte. Sono state spese migliaia di ore per il progetto WordPress e ogni giorno ci impegniamo per migliorarlo. Grazie di averlo accolto nel vostro mondo.</p>
-<p style="text-align: right">&#8212; Matt Mullenweg</p>
+		<!-- Header -->
+			<header id="header" class="alt skel-layers-fixed">
+				<h1><a href="index.html">HTML5 Website <span>by Html5webtemplates.co.uk</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="" class="icon fa-angle-down">Layouts</a>
+							<ul>
+								<li><a href="left-sidebar.html">Left Sidebar</a></li>
+								<li><a href="right-sidebar.html">Right Sidebar</a></li>
+								<li><a href="no-sidebar.html">No Sidebar</a></li>
+								<li>
+									<a href="">Submenu</a>
+									<ul>
+										<li><a href="#">Option 1</a></li>
+										<li><a href="#">Option 2</a></li>
+										<li><a href="#">Option 3</a></li>
+										<li><a href="#">Option 4</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</header>
 
-<h2>Installazione: La famosa installazione in 5 minuti</h2>
-<ol>
-	<li>Decomprimi in pacchetto in una directory vuota e carica tutto sul server remoto.</li>
-	<li>Lancia dal browser la pagina <span class="file"><a href="wp-admin/install.php">/wp-admin/install.php</a></span>. Sarai portato alla pagina che ti aiuterà a impostare il file <code>wp-config.php</code> con i dettagli di connessione del tuo   database.
-		<ol>
-			<li>Se per qualche motivo non dovesse funzionare, non preoccuparti. Non funziona con tutti gli hosting web. Apri <code>wp-config-sample.php</code> con un editor di tesi come WordPad o similari e inserisci i dettagli di connessione del tuo   database.</li>
-			<li>Salva il file come <code>wp-config.php</code> e caricalo sul server.</li>
-			<li>Apri <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> nel tuo browser.</li>
-		</ol>
-	</li>
-	<li>Non appena il file di configurazione è configurato, il processo di installazione creerà le tabelle necessarie per il tuo blog. Se c'è qualche errore, controlla due volte il file   <code>wp-config.php</code>, e provaci ancora. Se fallisce ancora, chiedi nei <a href="https://wordpress.org/support/" title="WordPress support">forum di supporto</a> fornendo tutte le informazioni che hai a tua disposizione.</li>
-	<li><strong>Se non inserisci una password, prendi nota della password che ti viene asseganta.</strong> Se non scegli un nome utente, sarà <code>admin</code>.</li>
-	<li>Il processo d'installazione dovrebbe rimandarti alla <a href="wp-login.php">pagina di login</a>. Collegati con il nome utente e la password che hai scelto durante l'installazione. Se la password è stata generata per te, puoi fare doppio clic su  &#8220;Profilo&#8221; per modificarla.</li>
-</ol>
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h2>Magna Aliquam</h2>
+					<p>Sed lorem ipsum sed dolor nullam adipiscing</p>
+					<ul class="actions">
+						<li><a href="#one" class="button big scrolly">Learn More</a></li>
+					</ul>
+				</div>
+			</section>
 
-<h2>Aggiornamento</h2>
-<h3>Aggiornamento automatico</h3>
-<p>Se stai aggiornando dalla versione 2.7 o successive, puoi utilizzare l'aggiornamento automatico:</p>
-<ol>
-	<li>Apri <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> nel tuo browser e segui le istruzioni.</li>
-	<li>Pensavi ci fosse di più? Questo è tutto!</li>
-</ol>
+		<!-- One -->
+			<section id="one" class="wrapper style1">
+				<div class="container">
+					<header class="major">
+						<h2>Lorem ipsum dolor</h2>
+						<p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
+						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
+						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
+					</header>
+					<div class="slider">
+						<span class="nav-previous"></span>
+						<div class="viewer">
+							<div class="reel">
+								<div class="slide">
+									<img src="images/slide01.jpg" alt="" />
+								</div>
+								<div class="slide">
+									<img src="images/slide02.jpg" alt="" />
+								</div>
+								<div class="slide">
+									<img src="images/slide03.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+						<span class="nav-next"></span>
+					</div>
+				</div>
+			</section>
+			
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="container">
+					<div class="row uniform">
+						<div class="4u 6u(2) 12u$(3)">
+							<section class="feature fa-briefcase">
+								<h3>Natoque phasellus</h3>
+								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
+							</section>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<section class="feature fa-code">
+								<h3>Ultricies dolore</h3>
+								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
+							</section>
+						</div>
+						<div class="4u$ 6u(2) 12u$(3)">
+							<section class="feature fa-save">
+								<h3>Magna lacinia</h3>
+								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
+							</section>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<section class="feature fa-desktop">
+								<h3>Praesent lacinia</h3>
+								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
+							</section>
+						</div>
+						<div class="4u 6u(2) 12u$(3)">
+							<section class="feature fa-camera-retro">
+								<h3>Morbi semper</h3>
+								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
+							</section>
+						</div>
+						<div class="4u$ 6u$(2) 12u$(3)">
+							<section class="feature fa-cog">
+								<h3>Arcu consequat</h3>
+								<p>Ipsum dolor tempus commodo amet sed accumsan et adipiscing blandit porttitor sed faucibus.</p>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		<!-- Three -->
+			<section id="three" class="wrapper style1">
+				<div class="container">
+					<header class="major">
+						<h2>Amet nisl consequat</h2>
+						<p>Ipsum dolor tempus commodo turpis adipiscing adipiscing in tempor placerat<br />
+						sed amet accumsan enim lorem sem turpis ut. Massa amet erat accumsan curae<br />
+						blandit porttitor faucibus in nisl nisi volutpat massa mi non nascetur.</p>
+					</header>
+					<div class="row">
+						<div class="4u 6u(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+								<h3>Sed amet lorem</h3>
+								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+								<h3>Massa accumsan</h3>
+								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u$ 6u(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+								<h3>Faucibus portitor</h3>
+								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+								<h3>Non placerat</h3>
+								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u 6u(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+								<h3>Adipiscing dolor</h3>
+								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+						<div class="4u$ 6u$(2) 12u$(3)">
+							<article class="box post">
+								<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+								<h3>Feugiat tempus</h3>
+								<p>Ipsum dolor tempus et commodo lorem accumsan et adipiscing blandit porttitor feugiat tempus lorem faucibus.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		<!-- CTA -->
+			<section id="cta" class="wrapper style3">
+				<h2>Sed faucibus et consequat</h2>
+				<ul class="actions">
+					<li><a href="#" class="button big">Get Started</a></li>
+				</ul>
+			</section>
+			
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Envelope</span></a></li>
+				</ul>
+				<ul class="menu">
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<span class="copyright">
+					&copy; Copyright. All rights reserved. Design by <a href="http://www.html5webtemplates.co.uk">Responsive Web Templates</a>
+				</span>
+			</footer>
 
-<h3>Aggiornamento manuale</h3>
-<ol>
-	<li>Prima di aggiornare l’'installazione, assicurati di aver fatto una copia di backup di tutti i file che hai modificato, come ad esempio il file <code>index.php</code>.</li>
-	<li>Cancella i vecchi file di WP, salvando quelli che hai modificato.</li>
-	<li>Carica i nuovi file sul server.</li>
-	<li>Dirigi il browser alla pagina <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a></span>.</li>
-</ol>
-
-<h2>Aggiornamento da altre piattaforme</h2>
-<p>WordPress può <a href="https://codex.wordpress.org/Importing_from_other_blogging_software">importare contenuti da altre piattaforme</a>. È necessario che abbia installato e configurato WordPress secondo le istruzioni precendeti, prima di utilizzare <a href="wp-admin/import.php" title="Import to WordPress">i nostri strumenti d'importazione</a>.</p>
-
-<h2>Requisiti di sistema</h2>
-<ul>
-	<li><a href="http://php.net/">PHP</a> versione <strong>5.2.4</strong> o superiore.</li>
-	<li><a href="http://www.mysql.com/">MySQL</a> versione <strong>5.0</strong> o superiore.</li>
-</ul>
-
-<h3>Raccomandati</h3>
-<ul>
-	<li><a href="http://php.net/">PHP</a> versione <strong>5.6</strong> o superiore.</li>
-	<li><a href="http://www.mysql.com/">MySQL</a> versione <strong>5.6</strong> o superiore.</li>
-	<li>Il modulo Apache <a href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a>.</li>
-	<li>Un link a <a href="https://wordpress.org/">wordpress.org</a> nel tuo sito.</li>
-</ul>
-
-<h2>Risorse online</h2>
-<p>Se hai delle domande alle quali questo documento non ha dato risposta, puoi approfittare delle numerose risorse online di WordPress:</p>
-<dl>
-	<dt><a href="https://codex.wordpress.org/it:Main_Page">Il progetto WordPress Codex</a></dt>
-	<dd>Il «Codex» è l’enciclopedia su tutto quello che riguarda WordPress. È la risorsa di informazioni più completa su WordPress.</dd>
-	<dt><a href="https://wordpress.org/news/">Il blog di sviluppo</a></dt>
-	<dd>Qui puoi trovare gli ultimi aggiornamenti e le ultime notizie su WordPress. Aggiungi il sito ai segnalibri e visitalo spesso.</dd>
-	<dt><a href="https://planet.wordpress.org/">WordPress Planet</a></dt>
-	<dd>«WordPress Planet» è un aggregatore di notizie che riporta gli articoli riguardanti i blog su WordPress in rete.</dd>
-	<dt><a href="https://it.wordpress.org/forums/">I forum di supporto di WordPress</a></dt>
-	<dd>Se hai cercato in rete e non hai trovato risposta, i forum di supporto sono molto attivi e costituiscono una comunità molto ampia di persone pronte ad aiutarti. Per fare in modo che possano aiutarti, assicurati di scrivere dei titoli molto descrittivi e riporta le tue domande nella maniera più dettagliata possibile.</dd>
-	<dt><a href="https://codex.wordpress.org/IRC">Il canale IRC di WordPress</a></dt>
-	<dd>Infine, c’è un canale chat dove le persone si incontrano per chiacchierare di WordPress e per occasionali richieste di aiuto. La pagina wiki sopracitata dovrebbe mostrarti la giusta direzione (irc.freenode.net #wordpress).</dd>
-</dl>
-
-<h2>Note finali</h2>
-<ul>
-	<li>Se hai suggerimenti, idee, commenti o se (gasp!) scopri un bug, vieni a trovarci nei <a href="https://it.wordpress.org/forums/">Forum di supporto</a></li>
-	<li>WordPress ora dispone di un robusto plugin <abbr title="application programming interface">API</abbr> che semplifica l'’estensione del codice. Se sei uno sviluppatore e sei interessato ad utilizzare questo plugin, consulta la <a href="https://codex.wordpress.org/Plugin_API">documentazione del plugin sul Codex</a>. Nella maggior parte dei casi, non dovrai modificare niente del codice principale.</li></ul>
-
-<h2>Condividi la passione</h2>
-<p>WordPress non dispone di campagne di marketing milionarie o di testimonial celebri, ma abbiamo di sicuro qualcosa di meglio – te. Se ti piace WordPress, per favore segnalalo ad un amico, aiutando nell’installazione chi ne sa meno di te, o consigliandolo ai media come argomento da trattare.</p>
-
-<p>WordPress è il proseguimento ufficiale del progetto <a href="http://cafelog.com/">b2/cafélog</a>, inizialmente implementato da Michel V. Il lavoro è stato continuato dagli <a href="http://wordpress.org/about/">sviluppatori di WordPress</a>. Se vuoi aiutare il progetto WordPress, per favore considera l'’ipotesi di fare una <a href="http://wordpressfoundation.org/donate/" title="Donate to WordPress">donazione</a>.</p>
-
-<h2>Licenza</h2>
-<p>WordPress è rilasciato sotto licenza <abbr title="GNU Public License">GPL</abbr> (leggi il documento <a href="licenza.html">licenza.html</a>).</p>
-
-</body>
+	</body>
 </html>
